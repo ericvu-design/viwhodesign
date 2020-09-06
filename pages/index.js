@@ -12,7 +12,7 @@ export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
-      : "https://brazilianswho.design/";
+      : "https://vietnameseswho.design/";
 
   const res = await fetch(`${origin}/api/designers`);
   const designers = await res.json();
@@ -123,8 +123,9 @@ export default function Home({ designers, filters }) {
       }}
     >
       <Head>
-        <title>Brazilians Who Design</title>
+        <title>Vietnameses Who Design</title>
         <link id="favicon" rel="alternate icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet" />
         <MetaTags />
       </Head>
 
@@ -180,7 +181,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     <div className={className} onClick={onClick}>
       <Nav />
 
-      <Title className="title m0 p0" text="Brazilians*who&nbsp;design" />
+      <Title className="title m0 p0" text="Vietnameses*who&nbsp;design" />
 
       <motion.div
         initial={{ opacity: 0 }}

@@ -7,7 +7,7 @@ export default function Nominate({ designers }) {
   return (
     <div className="container">
       <Head>
-        <title>Brazilians Who Design | Nomiate</title>
+        <title>Vietnameses Who Design | Nominate</title>
         <link rel="icon" href="/favicon.ico" />
         <MetaTags />
       </Head>
@@ -19,7 +19,7 @@ export default function Nominate({ designers }) {
           height="100%"
           frameBorder="0"
           allow="camera; microphone; autoplay; encrypted-media;"
-          src="https://form.typeform.com/to/bbrPUqMe"
+          src="https://form.typeform.com/to/dvB4GTJt"
         ></iframe>{" "}
         <script
           type="text/javascript"

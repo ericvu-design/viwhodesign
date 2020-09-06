@@ -1,4 +1,6 @@
-# Brazilians Who Design
+# Vietnameses Who Design
+
+forked from Brazilians Who Design
 
 ![](https://www.dropbox.com/s/x5udk39ad57ayp5/brazilianswhodesignthumb.png?raw=1)
 
@@ -12,7 +14,7 @@ We encourage you to create your directory featured a list of any professionals y
 
 1. Duplicate [this spreedhsheet template](https://docs.google.com/spreadsheets/d/12LLA-NoHin0zQfmpEblgMjd260bmriLMowBAH1QDOhI/edit)
 2. Go to File > Publish to the Web > Publish
-3. Copy the id between /spreadsheets/ and /edit in the url: 
+3. Copy the id between /spreadsheets/ and /edit in the url:
 	> [https://docs.google.com/spreadsheets/d/__12LLA-NoHin0zQfmpEblgMjd260bmriLMowBAH1QDOhI__/edit](https://docs.google.com/spreadsheets/d/12LLA-NoHin0zQfmpEblgMjd260bmriLMowBAH1QDOhI/edit)
 4. Paste the ID in the file [`pages/api/designers.js`](https://github.com/zehfernandes/brazilianswhodesign/blob/main/pages/api/designers.js)
 
@@ -38,5 +40,3 @@ In your browser, open `localhost:3000`.
 ### Deploy at vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https%3A%2F%2Fgithub.com%2Fzehfernandes%2Fbrazilianswhodesign)
-
-

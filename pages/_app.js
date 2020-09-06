@@ -1,4 +1,4 @@
-import "../assets/styles/modernism.css";
+import "../assets/styles/oriental.css";
 import { AnimatePresence } from "framer-motion";
 
 function App({ Component, pageProps }) {

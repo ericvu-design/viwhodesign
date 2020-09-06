@@ -5,12 +5,12 @@ export default function Nav(props) {
     <ul className="auxNav" {...props}>
       <li>
         <Link href="/about">
-          <a>About</a>
+          <a>about <i>về dự án</i></a>
         </Link>
       </li>
       <li>
         <Link href="/nominate">
-          <a>Nominate</a>
+          <a> nominate <i>đề cử</i></a>
         </Link>
       </li>
 
@@ -19,6 +19,7 @@ export default function Nav(props) {
           padding: 0;
           margin: 0;
           display: flex;
+          font-size: 1.5rem;
         }
 
         ul li {
