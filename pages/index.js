@@ -12,7 +12,7 @@ export async function getStaticProps() {
   const origin =
     process.env.NODE_ENV !== "production"
       ? "http://localhost:3000"
-      : "https://viwhodesign.vercel.app";
+      : "https://vietnameseswho.design/";
 
   const res = await fetch(`${origin}/api/designers`);
   const designers = await res.json();
@@ -119,7 +119,7 @@ export default function Home({ designers, filters }) {
     <div
       className="container"
       style={{
-        overflow: isReady ? "hidden" : "auto",
+        overflow: isReady ? "hidden" : "visible",
       }}
     >
       <Head>
@@ -181,7 +181,7 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
     <div className={className} onClick={onClick}>
       <Nav />
 
-      <Title className="title m0 p0" text="Vietnameses*who&nbsp;design" />
+      <Title className="title m0 p0" text="Brazilians*who&nbsp;design" />
 
       <motion.div
         initial={{ opacity: 0 }}
@@ -233,30 +233,24 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
         .tableContent {
           padding-top: 18vh;
         }
-
         .filterTable {
           cursor: pointer;
         }
-
         thead {
           height: 2.2rem;
         }
-
         .thsize-aux {
           width: 20%;
         }
-
         .thsize-link {
           width: 2rem;
           text-align: right;
         }
-
         @media (max-width: 480px) {
           .thsize-aux {
             width: 30%;
           }
         }
-
         tbody a {
           width: 100%;
           padding-bottom: 0.6em;
@@ -264,7 +258,6 @@ function Content({ designers, handleOpenFilter, className, onClick }) {
           color: inherit;
           display: inline-block;
         }
-
         table tbody td {
           padding-top: 0;
           padding-bottom: 0;
